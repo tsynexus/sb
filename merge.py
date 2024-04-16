@@ -51,10 +51,11 @@ def get_physical_location(address):
 def process_clash(data, index):
     # 解析YAML格式的内容
     content = yaml.safe_load(data)
-
     # 提取proxies部分并合并到merged_proxies中
     proxies = content.get("proxies", [])
-
+    proxies = [x for x in proxies if not x.get('server') == 'yh6.dtku41.xy']
+    proxies = [x for x in proxies if not x.get('server') == 'yh7.dtku41.xy']
+    # print(proxies)
     for proxy in proxies:
         # 如果类型是vless
         if proxy["type"] == "vless":
@@ -87,9 +88,9 @@ def process_clash(data, index):
             name = f"{location}_vless_{index}"
             vless_meta2 = f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure{insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}"
             #判断列表中是否已包含
-            result = any(vless_meta2 in word for word in merged_proxies)
+            result = any(server in word for word in merged_proxies)
             #如果没有存在，写入
-            if not result:
+            if not result and location != "China":
                 vless_meta = f"{vless_meta2}#{name}"
                 merged_proxies.append(vless_meta)
 
@@ -116,9 +117,9 @@ def process_clash(data, index):
             name = f"{location}_vmess_{index}"
             vmess_meta2 = f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&alter_id={alterId}&sni={sni}&type={network}&fp={fp}&path={ws_path}&host={ws_headers_host}"
             #判断列表中是否已包含
-            result = any(vmess_meta2 in word for word in merged_proxies)
+            result = any(server in word for word in merged_proxies)
             #如果没有存在，写入
-            if not result:
+            if not result and location != "China":
                 vmess_meta = f"{vmess_meta2}#{name}"
                 merged_proxies.append(vmess_meta)
 
@@ -141,9 +142,9 @@ def process_clash(data, index):
             # tuic_meta_neko = f"tuic://{server}:{port}?uuid={uuid}&version=5&password={password}&insecure={insecure}&alpn={alpn}&mode={udp_relay_mode}"
             tuic_meta2 = f"tuic://{uuid}:{password}@{server}:{port}?sni={sni}&congestion_control={congestion}&udp_relay_mode={udp_relay_mode}&alpn={alpn}&allow_insecure={insecure}"
             #判断列表中是否已包含
-            result = any(tuic_meta2 in word for word in merged_proxies)
-            #如果没有存在，写入
-            if not result:
+            result = any(server in word for word in merged_proxies)
+           #如果没有存在，写入
+            if not result and location != "China":
                 tuic_meta = f"{tuic_meta2}#{name}"
                 merged_proxies.append(tuic_meta)
 
@@ -159,9 +160,9 @@ def process_clash(data, index):
             name = f"{location}_hy2_{index}"
             hy2_meta2 = f"hysteria2://{auth}@{server}:{port}?insecure={insecure}&sni={sni}&obfs={obfs}&obfs-password={obfs_password}"
             #判断列表中是否已包含
-            result = any(hy2_meta2 in word for word in merged_proxies)
+            result = any(server in word for word in merged_proxies)
             #如果没有存在，写入
-            if not result:
+            if not result and location != "China":
                 hy2_meta = f"{hy2_meta2}#{name}"
                 merged_proxies.append(hy2_meta)
 
@@ -187,9 +188,9 @@ def process_clash(data, index):
             name = f"{location}_hy_{index}"
             hysteria_meta2 = f"hysteria://{server}:{port}?peer={sni}&auth={auth}&insecure={insecure}&upmbps={up_mbps}&downmbps={down_mbps}&alpn={alpn}&mport={ports}&obfs={obfs}&protocol={protocol}&fastopen={fast_open}"
             #判断列表中是否已包含
-            result = any(hysteria_meta2 in word for word in merged_proxies)
+            result = any(server in word for word in merged_proxies)
             #如果没有存在，写入
-            if not result:
+            if not result and location != "China":
                 hysteria_meta = f"{hysteria_meta2}#{name}"
                 merged_proxies.append(hysteria_meta)
 
@@ -287,9 +288,9 @@ def process_hysteria(data, index):
         name = f"{location}_hysteria_{index}"
         hysteria_2 = f"hysteria://{server}?peer={server_name}&auth={auth}&insecure={insecure}&upmbps={up_mbps}&downmbps={down_mbps}&alpn={alpn}&obfs={obfs}&protocol={protocol}&fastopen={fast_open}"
         # 判断列表中是否已包含
-        result = any(hysteria_2 in word for word in merged_proxies)
+        result = any(server in word for word in merged_proxies)
         # 如果没有存在，写入
-        if not result:
+        if not result and location != "China":
             hysteria = f"{hysteria_2}#{name}"
             merged_proxies.append(hysteria)
     except Exception as e:
@@ -311,9 +312,9 @@ def process_hysteria2(data, index):
         name = f"{location}_hysteria2_{index}"
         hysteria2_2 = f"hysteria2://{auth}@{server}?insecure={insecure}&sni={sni}"
         # 判断列表中是否已包含
-        result = any(hysteria2_2 in word for word in merged_proxies)
+        result = any(server in word for word in merged_proxies)
         # 如果没有存在，写入
-        if not result:
+        if not result and location != "China":
             hysteria2 = f"{hysteria2_2}#{name}"
             merged_proxies.append(hysteria2)
 
@@ -368,9 +369,9 @@ def process_xray(data, index):
             name = f"{location}_vless_{index}"
             xray_proxy2 = f"vless://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&flow={flow}&type={network}&fp={fp}&pbk={publicKey}&sid={short_id}&sni={sni}&serviceName={grpc_serviceName}&path={ws_path}&host={ws_headers_host}"
             # 判断列表中是否已包含
-            result = any(xray_proxy2 in word for word in merged_proxies)
+            result = any(server in word for word in merged_proxies)
             # 如果没有存在，写入
-            if not result:
+            if not result and location != "China":
                 xray_proxy = f"{xray_proxy2}#{name}"
                 merged_proxies.append(xray_proxy)
             # 将当前proxy字典添加到所有proxies列表中
