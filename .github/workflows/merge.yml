@@ -23,10 +23,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run merge script
-        run: python meta_merge.py 
+#      - name: Run merge script
+#        run: python meta_merge.py 
 
-      - name: Run shadowrocket merge script
+      - name: Run Base64 merge script
         run: python merge.py  
       - name: Run sing-box script
         run: python sing-box.py  
