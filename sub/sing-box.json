@@ -119,7 +119,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_vless_1",
         "🇺🇸 United States_vless_2 2",
-        "None_vless_3"
+        "🇺🇸 United States_vless_3"
       ]
     },
     {
@@ -371,15 +371,15 @@
         "🇺🇸 United States_hysteria2_0",
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_vless_1",
-        "🇺🇸 United States_vless_2 2"
+        "🇺🇸 United States_vless_2 2",
+        "🇺🇸 United States_vless_3"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 France_hysteria_1",
-        "None_vless_3"
+        "🇫🇷 France_hysteria_1"
       ]
     },
     {
@@ -399,7 +399,7 @@
         "🇺🇸 United States_hysteria2_1",
         "🇺🇸 United States_vless_1",
         "🇺🇸 United States_vless_2 2",
-        "None_vless_3"
+        "🇺🇸 United States_vless_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -659,7 +659,7 @@
       }
     },
     {
-      "tag": "None_vless_3",
+      "tag": "🇺🇸 United States_vless_3",
       "type": "vless",
       "server": "yh7.dtku41.xyz",
       "server_port": 443,
