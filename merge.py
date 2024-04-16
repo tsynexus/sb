@@ -112,9 +112,8 @@ def process_clash(data, index):
             ws_headers_host = (
                 proxy.get("ws-opts", {}).get("headers", {}).get("Host", "")
             )
-            # location = get_physical_location(server)
-
-            name = f"_vmess_{index}"
+            location = get_physical_location(server)
+            name = f"{location}_vmess_{index}"
             vmess_meta2 = f"vmess://{uuid}@{server}:{port}?security={security}&allowInsecure={insecure}&alter_id={alterId}&sni={sni}&type={network}&fp={fp}&path={ws_path}&host={ws_headers_host}"
             #判断列表中是否已包含
             result = any(vmess_meta2 in word for word in merged_proxies)
