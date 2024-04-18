@@ -1,4 +1,4 @@
-https://apiurl.v1.mk/sub?target=clash&url=https://cfsub.cpok.top/cfsub
+https://apiurl.v1.mk/sub?target=clash&url=https://cfsub.cpok.top/sub?host=cf.skykk.workers.dev&uuid=3eab194a-c8bb-419d-b8c8-a19ab4571c5e&path=/?ed=2560
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
