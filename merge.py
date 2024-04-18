@@ -19,9 +19,7 @@ def process_urls(url_file, processor):
                 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
                 response = urllib.request.Request(url=url, headers=headers)
                 response = urllib.request.urlopen(response)
-                datas = response.read().decode("utf-8")
-                content = yaml.safe_load(datas)
-                data = content.get("proxies", [])
+                data = response.read().decode("utf-8")
                 processor(data, index)
             except Exception as e:
                 logging.error(f"Error processing URL {url}: {e}")
@@ -52,7 +50,8 @@ def get_physical_location(address):
 
 # 提取clash节点
 def process_clash(data, index):
-    proxies = data
+    content = yaml.safe_load(data)
+    proxies = content.get("proxies", [])
     #过滤
     proxies = [x for x in proxies if not x.get('server') == 'c.xf.free.hr']
     proxies = [x for x in proxies if not x.get('server') == 'yh6.dtku41.xy']
