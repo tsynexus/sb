@@ -17,8 +17,14 @@ def process_urls(url_file, processor):
 
         for index, url in enumerate(urls):
             try:
-                response = urllib.request.urlopen(url)
-                data = response.read().decode("utf-8")
+                headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/20100101 Firefox/23.0'}
+                response = urllib.request.Request(url=url, headers=headers)
+                response = urllib.request.urlopen(response)
+                datas = response.read().decode("utf-8")
+                # 解析YAML格式的内容
+                content = yaml.safe_load(datas)
+                # 提取proxies部分并合并到merged_proxies中
+                data = content.get("proxies", [])
                 processor(data, index)
             except Exception as e:
                 logging.error(f"Error processing URL {url}: {e}")
@@ -49,10 +55,9 @@ def get_physical_location(address):
 
 # 提取clash节点
 def process_clash(data, index):
-    # 解析YAML格式的内容
-    content = yaml.safe_load(data)
-    # 提取proxies部分并合并到merged_proxies中
-    proxies = content.get("proxies", [])
+    content = data
+    #过滤
+    proxies = [x for x in proxies if not x.get('server') == 'c.xf.free.hr']    
     proxies = [x for x in proxies if not x.get('server') == 'yh6.dtku41.xy']
     proxies = [x for x in proxies if not x.get('server') == 'yh7.dtku41.xy']
     # print(proxies)
