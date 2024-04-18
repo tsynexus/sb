@@ -152,8 +152,8 @@
         "🇯🇵 Japan_vless_0 7",
         "🇯🇵 Japan_vless_0 8",
         "🇺🇸 United States_hy2_1",
-        "Esx32fU5_vmess",
-        "nV29mqnQ_vmess",
+        "🇷🇴 8aROExHY_vmess",
+        "fJfV7RYo_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -210,8 +210,8 @@
         "🇯🇵 Japan_vless_0 7",
         "🇯🇵 Japan_vless_0 8",
         "🇺🇸 United States_hy2_1",
-        "Esx32fU5_vmess",
-        "nV29mqnQ_vmess",
+        "🇷🇴 8aROExHY_vmess",
+        "fJfV7RYo_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -335,8 +335,8 @@
         "None_vless_0 10",
         "None_vless_0 11",
         "Unknown_vless_0",
-        "Esx32fU5_vmess",
-        "nV29mqnQ_vmess",
+        "🇷🇴 8aROExHY_vmess",
+        "fJfV7RYo_vmess",
         "🇫🇷 France_hysteria_1"
       ]
     },
@@ -374,8 +374,8 @@
         "🇯🇵 Japan_vless_0 7",
         "🇯🇵 Japan_vless_0 8",
         "🇺🇸 United States_hy2_1",
-        "Esx32fU5_vmess",
-        "nV29mqnQ_vmess",
+        "🇷🇴 8aROExHY_vmess",
+        "fJfV7RYo_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -1042,7 +1042,7 @@
       }
     },
     {
-      "tag": "Esx32fU5_vmess",
+      "tag": "🇷🇴 8aROExHY_vmess",
       "type": "vmess",
       "server": "yh9.dtku41.xyz",
       "server_port": 8080,
@@ -1059,7 +1059,7 @@
       }
     },
     {
-      "tag": "nV29mqnQ_vmess",
+      "tag": "fJfV7RYo_vmess",
       "type": "vmess",
       "server": "yh1.dtku41.xyz",
       "server_port": 8080,
