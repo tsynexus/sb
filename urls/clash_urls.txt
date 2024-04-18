@@ -1,4 +1,4 @@
-https://apiurl.v1.mk/sub?target=clash&url=hhttps://sub.xf.free.hr/auto?host=cf.skykk.workers.dev&uuid=3eab194a-c8bb-419d-b8c8-a19ab4571c5e&path=/?ed=2560&insert=false&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+https://apiurl.v1.mk/sub?target=clash&url=https%3A%2F%2Fsub.xf.free.hr%2Fauto%3Fhost%3Dcf.skykk.workers.dev%26uuid%3D3eab194a-c8bb-419d-b8c8-a19ab4571c5e%26path%3D%2F%3Fed%3D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/1/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/config.yaml
 https://raw.githubusercontent.com/Alvin9999/pac2/master/clash.meta2/13/config.yaml
