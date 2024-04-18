@@ -123,8 +123,8 @@
         "auto",
         "direct",
         "🇺🇸 United States_hy2_1",
-        "pgbt5wii_vmess",
-        "CT7sdfKe_vmess",
+        "🇲🇴 SHf4CTMz_vmess",
+        "seS8zoZz_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -152,8 +152,8 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 United States_hy2_1",
-        "pgbt5wii_vmess",
-        "CT7sdfKe_vmess",
+        "🇲🇴 SHf4CTMz_vmess",
+        "seS8zoZz_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -250,8 +250,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "pgbt5wii_vmess",
-        "CT7sdfKe_vmess",
+        "🇲🇴 SHf4CTMz_vmess",
+        "seS8zoZz_vmess",
         "🇫🇷 France_hysteria_1"
       ]
     },
@@ -260,8 +260,8 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States_hy2_1",
-        "pgbt5wii_vmess",
-        "CT7sdfKe_vmess",
+        "🇲🇴 SHf4CTMz_vmess",
+        "seS8zoZz_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -309,7 +309,7 @@
       }
     },
     {
-      "tag": "pgbt5wii_vmess",
+      "tag": "🇲🇴 SHf4CTMz_vmess",
       "type": "vmess",
       "server": "yh9.dtku41.xyz",
       "server_port": 8080,
@@ -326,7 +326,7 @@
       }
     },
     {
-      "tag": "CT7sdfKe_vmess",
+      "tag": "seS8zoZz_vmess",
       "type": "vmess",
       "server": "yh1.dtku41.xyz",
       "server_port": 8080,
