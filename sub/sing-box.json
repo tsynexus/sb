@@ -122,18 +122,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "None_vless_0",
-        "🇺🇸 United States_vless_0",
-        "None_vless_0 2",
-        "None_vless_0 3",
-        "None_vless_0 4",
-        "None_vless_0 5",
-        "None_vless_0 6",
-        "🇺🇸 United States_vless_0 2",
-        "None_vless_0 7",
         "🇺🇸 United States_hy2_1",
-        "Rb7l7kQs_vmess",
-        "KkYKl5ml_vmess",
+        "Y24YfGug_vmess",
+        "ETCeyUGg_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -160,18 +151,9 @@
       "tag": "Media",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "🇺🇸 United States_vless_0",
-        "None_vless_0 2",
-        "None_vless_0 3",
-        "None_vless_0 4",
-        "None_vless_0 5",
-        "None_vless_0 6",
-        "🇺🇸 United States_vless_0 2",
-        "None_vless_0 7",
         "🇺🇸 United States_hy2_1",
-        "Rb7l7kQs_vmess",
-        "KkYKl5ml_vmess",
+        "Y24YfGug_vmess",
+        "ETCeyUGg_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -250,8 +232,6 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 United States_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_hy2_1",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
@@ -270,15 +250,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "None_vless_0 2",
-        "None_vless_0 3",
-        "None_vless_0 4",
-        "None_vless_0 5",
-        "None_vless_0 6",
-        "None_vless_0 7",
-        "Rb7l7kQs_vmess",
-        "KkYKl5ml_vmess",
+        "Y24YfGug_vmess",
+        "ETCeyUGg_vmess",
         "🇫🇷 France_hysteria_1"
       ]
     },
@@ -286,18 +259,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "None_vless_0",
-        "🇺🇸 United States_vless_0",
-        "None_vless_0 2",
-        "None_vless_0 3",
-        "None_vless_0 4",
-        "None_vless_0 5",
-        "None_vless_0 6",
-        "🇺🇸 United States_vless_0 2",
-        "None_vless_0 7",
         "🇺🇸 United States_hy2_1",
-        "Rb7l7kQs_vmess",
-        "KkYKl5ml_vmess",
+        "Y24YfGug_vmess",
+        "ETCeyUGg_vmess",
         "🇺🇸 United States_vless_3",
         "🇺🇸 United States_hy_7",
         "🇺🇸 United States_hy_8",
@@ -328,240 +292,6 @@
       "tag": "block"
     },
     {
-      "tag": "None_vless_0",
-      "type": "vless",
-      "server": "104.16.200.27",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_vless_0",
-      "type": "vless",
-      "server": "172.64.157.46",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 2",
-      "type": "vless",
-      "server": "104.16.147.228",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 3",
-      "type": "vless",
-      "server": "104.19.45.127",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 4",
-      "type": "vless",
-      "server": "104.19.41.164",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 5",
-      "type": "vless",
-      "server": "104.19.60.123",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 6",
-      "type": "vless",
-      "server": "104.26.7.21",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_vless_0 2",
-      "type": "vless",
-      "server": "172.64.229.212",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "None_vless_0 7",
-      "type": "vless",
-      "server": "162.159.58.226",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
       "tag": "🇺🇸 United States_hy2_1",
       "type": "hysteria2",
       "server": "74.63.233.74",
@@ -579,7 +309,7 @@
       }
     },
     {
-      "tag": "Rb7l7kQs_vmess",
+      "tag": "Y24YfGug_vmess",
       "type": "vmess",
       "server": "yh9.dtku41.xyz",
       "server_port": 8080,
@@ -596,7 +326,7 @@
       }
     },
     {
-      "tag": "KkYKl5ml_vmess",
+      "tag": "ETCeyUGg_vmess",
       "type": "vmess",
       "server": "yh1.dtku41.xyz",
       "server_port": 8080,
