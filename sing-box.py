@@ -1,5 +1,8 @@
 import requests
 import os
+import time
+
+time.sleep(10)
 
 url = "https://sbsubok.vercel.app/config/https:/raw.githubusercontent.com/tsynexus/sb/main/sub/base64.txt"
 output_folder = "sub"
