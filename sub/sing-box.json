@@ -159,9 +159,21 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States_vless_0",
+        "🇭🇰 Hong Kong_vless_0",
+        "🇭🇰 Hong Kong_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 3",
+        "🇭🇰 Hong Kong_vless_0 4",
+        "None_vless_0",
+        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 5",
+        "🇭🇰 Hong Kong_vless_0 6",
+        "🇭🇰 Hong Kong_vless_0 7",
+        "🇭🇰 Hong Kong_vless_0 8",
+        "🇭🇰 Hong Kong_vless_0 9",
         "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria2_0",
-        "🇫🇷 France_vless_0"
+        "🇺🇸 United States_hysteria2_0"
       ]
     },
     {
@@ -169,9 +181,21 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
+        "🇺🇸 United States_vless_0",
+        "🇭🇰 Hong Kong_vless_0",
+        "🇭🇰 Hong Kong_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 3",
+        "🇭🇰 Hong Kong_vless_0 4",
+        "None_vless_0",
+        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 5",
+        "🇭🇰 Hong Kong_vless_0 6",
+        "🇭🇰 Hong Kong_vless_0 7",
+        "🇭🇰 Hong Kong_vless_0 8",
+        "🇭🇰 Hong Kong_vless_0 9",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria2_0",
-        "🇫🇷 France_vless_0",
         "direct"
       ]
     },
@@ -209,7 +233,15 @@
       "tag": "HongKong",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇭🇰 Hong Kong_vless_0",
+        "🇭🇰 Hong Kong_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 3",
+        "🇭🇰 Hong Kong_vless_0 4",
+        "🇭🇰 Hong Kong_vless_0 5",
+        "🇭🇰 Hong Kong_vless_0 6",
+        "🇭🇰 Hong Kong_vless_0 7",
+        "🇭🇰 Hong Kong_vless_0 8",
+        "🇭🇰 Hong Kong_vless_0 9"
       ]
     },
     {
@@ -230,6 +262,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 United States_vless_0",
+        "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria2_0"
       ]
@@ -238,20 +272,299 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 France_vless_0"
+        "None_vless_0",
+        "None_vless_0 2"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States_vless_0",
+        "🇭🇰 Hong Kong_vless_0",
+        "🇭🇰 Hong Kong_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 3",
+        "🇭🇰 Hong Kong_vless_0 4",
+        "None_vless_0",
+        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
+        "🇭🇰 Hong Kong_vless_0 5",
+        "🇭🇰 Hong Kong_vless_0 6",
+        "🇭🇰 Hong Kong_vless_0 7",
+        "🇭🇰 Hong Kong_vless_0 8",
+        "🇭🇰 Hong Kong_vless_0 9",
         "🇺🇸 United States_hysteria_0",
-        "🇺🇸 United States_hysteria2_0",
-        "🇫🇷 France_vless_0"
+        "🇺🇸 United States_hysteria2_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
       "tolerance": 50
+    },
+    {
+      "tag": "🇺🇸 United States_vless_0",
+      "type": "vless",
+      "server": "cf.090227.xyz",
+      "server_port": 443,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0",
+      "type": "vless",
+      "server": "16.162.37.167",
+      "server_port": 443,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 2",
+      "type": "vless",
+      "server": "18.167.20.205",
+      "server_port": 443,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 3",
+      "type": "vless",
+      "server": "8.210.207.214",
+      "server_port": 2053,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 4",
+      "type": "vless",
+      "server": "47.242.42.153",
+      "server_port": 2083,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "None_vless_0",
+      "type": "vless",
+      "server": "www.visa.com.sg",
+      "server_port": 80,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "None_vless_0 2",
+      "type": "vless",
+      "server": "www.wto.org",
+      "server_port": 8080,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_0 2",
+      "type": "vless",
+      "server": "www.who.int",
+      "server_port": 8880,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 5",
+      "type": "vless",
+      "server": "43.129.171.137",
+      "server_port": 80,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 6",
+      "type": "vless",
+      "server": "8.217.50.252",
+      "server_port": 2052,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 7",
+      "type": "vless",
+      "server": "47.243.60.150",
+      "server_port": 2082,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 8",
+      "type": "vless",
+      "server": "8.218.3.198",
+      "server_port": 2086,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 9",
+      "type": "vless",
+      "server": "47.243.234.9",
+      "server_port": 8880,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
     },
     {
       "tag": "🇺🇸 United States_hysteria_0",
@@ -286,29 +599,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇫🇷 France_vless_0",
-      "type": "vless",
-      "server": "62.210.101.0",
-      "server_port": 23357,
-      "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "U5hsLybYWhJrWAqqsTa052k-VeKt8bDFPxBh3CQk51M",
-          "short_id": "0b4badde"
-        }
       }
     }
   ],
