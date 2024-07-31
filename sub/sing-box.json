@@ -174,7 +174,6 @@
         "🇭🇰 Hong Kong_vless_0 9",
         "🇭🇰 Hong Kong_vless_0 10",
         "🇭🇰 Hong Kong_vless_0 11",
-        "🇭🇰 Hong Kong_vless_0 12",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria2_0"
       ]
@@ -199,7 +198,6 @@
         "🇭🇰 Hong Kong_vless_0 9",
         "🇭🇰 Hong Kong_vless_0 10",
         "🇭🇰 Hong Kong_vless_0 11",
-        "🇭🇰 Hong Kong_vless_0 12",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria2_0",
         "direct"
@@ -249,8 +247,7 @@
         "🇭🇰 Hong Kong_vless_0 8",
         "🇭🇰 Hong Kong_vless_0 9",
         "🇭🇰 Hong Kong_vless_0 10",
-        "🇭🇰 Hong Kong_vless_0 11",
-        "🇭🇰 Hong Kong_vless_0 12"
+        "🇭🇰 Hong Kong_vless_0 11"
       ]
     },
     {
@@ -304,7 +301,6 @@
         "🇭🇰 Hong Kong_vless_0 9",
         "🇭🇰 Hong Kong_vless_0 10",
         "🇭🇰 Hong Kong_vless_0 11",
-        "🇭🇰 Hong Kong_vless_0 12",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria2_0"
       ],
@@ -322,7 +318,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
+        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -332,7 +328,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
+          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -348,7 +344,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
+        "server_name": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -358,7 +354,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+          "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -367,14 +363,14 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "18.167.20.205",
-      "server_port": 443,
+      "server": "8.210.101.157",
+      "server_port": 2053,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -384,7 +380,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -393,14 +389,14 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.210.89.245",
-      "server_port": 2053,
+      "server": "18.167.20.205",
+      "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
+        "server_name": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -410,7 +406,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
+          "Host": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -419,14 +415,14 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 4",
       "type": "vless",
-      "server": "47.243.107.148",
+      "server": "8.210.156.6",
       "server_port": 2053,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
+        "server_name": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -436,7 +432,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
+          "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -530,7 +526,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 7",
       "type": "vless",
-      "server": "8.210.101.157",
+      "server": "8.217.251.62",
       "server_port": 2052,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -547,23 +543,6 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 8",
       "type": "vless",
-      "server": "8.217.251.62",
-      "server_port": 2052,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cf.skykk.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 Hong Kong_vless_0 9",
-      "type": "vless",
       "server": "8.218.65.237",
       "server_port": 2082,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
@@ -579,7 +558,7 @@
       }
     },
     {
-      "tag": "🇭🇰 Hong Kong_vless_0 10",
+      "tag": "🇭🇰 Hong Kong_vless_0 9",
       "type": "vless",
       "server": "8.217.149.28",
       "server_port": 2052,
@@ -596,7 +575,7 @@
       }
     },
     {
-      "tag": "🇭🇰 Hong Kong_vless_0 11",
+      "tag": "🇭🇰 Hong Kong_vless_0 10",
       "type": "vless",
       "server": "8.218.178.79",
       "server_port": 2052,
@@ -613,7 +592,7 @@
       }
     },
     {
-      "tag": "🇭🇰 Hong Kong_vless_0 12",
+      "tag": "🇭🇰 Hong Kong_vless_0 11",
       "type": "vless",
       "server": "8.218.204.128",
       "server_port": 8880,
@@ -632,8 +611,8 @@
     {
       "tag": "🇺🇸 United States_hysteria_0",
       "type": "hysteria",
-      "server": "38.135.52.192",
-      "server_port": 23456,
+      "server": "104.166.125.163",
+      "server_port": 11001,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
@@ -651,13 +630,13 @@
       "tag": "🇺🇸 United States_hysteria2_0",
       "type": "hysteria2",
       "server": "207.90.239.157",
-      "server_port": 22334,
+      "server_port": 15669,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.bing.com",
         "insecure": true,
         "alpn": [
           "h3"
