@@ -161,12 +161,11 @@
         "direct",
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇭🇰 Hong Kong_vless_0 5",
         "🇭🇰 Hong Kong_vless_0 6",
@@ -186,12 +185,11 @@
         "Proxy",
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇭🇰 Hong Kong_vless_0 5",
         "🇭🇰 Hong Kong_vless_0 6",
@@ -271,7 +269,6 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria2_0"
@@ -291,12 +288,11 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇭🇰 Hong Kong_vless_0 5",
         "🇭🇰 Hong Kong_vless_0 6",
@@ -322,7 +318,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org",
+        "server_name": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -332,7 +328,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "68123106-3e43-4958-b75a-b06e81eabf79.50d88e28-a870-497d-bf87-c20fb6802871.camdvr.org"
+          "Host": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -348,7 +344,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
+        "server_name": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -358,33 +354,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_vless_0 2",
-      "type": "vless",
-      "server": "47.76.225.255",
-      "server_port": 2053,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+          "Host": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -393,14 +363,14 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "8.218.211.17",
-      "server_port": 2053,
+      "server": "47.242.7.162",
+      "server_port": 8443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+        "server_name": "e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -410,7 +380,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+          "Host": "e8b99cbe-9ebd-4a20-a497-38f4b29f2c98.83b11782-ecae-411f-90c3-2a01bb33260a.gleeze.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -419,14 +389,14 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.210.21.65",
-      "server_port": 8443,
+      "server": "8.210.3.24",
+      "server_port": 2053,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
+        "server_name": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -436,7 +406,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
+          "Host": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -477,7 +447,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 3",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
