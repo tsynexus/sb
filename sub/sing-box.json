@@ -310,7 +310,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org",
+        "server_name": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -320,7 +320,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org"
+          "Host": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -336,7 +336,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org",
+        "server_name": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -346,7 +346,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "15212712-20f5-40a5-b9aa-8363e0130171.ee137666-1e0a-46db-bbd6-cc18f9841234.accesscam.org"
+          "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -362,7 +362,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com",
+        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -372,7 +372,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "5ae52850-e7f0-481c-8cff-6c1ed17fd9f1.91f1a2e9-9f15-4330-996f-0b6bc7c8fa5b.theworkpc.com"
+          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
