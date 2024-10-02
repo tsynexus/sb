@@ -164,8 +164,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
@@ -182,8 +182,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
@@ -251,6 +251,7 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
         "🇺🇸 United States_hysteria2_0"
@@ -260,8 +261,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "None_vless_0 2"
+        "None_vless_0"
       ]
     },
     {
@@ -273,8 +273,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇺🇸 United States_hysteria_0",
         "🇺🇸 United States_hysteria_1",
@@ -346,7 +346,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
+        "server_name": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -356,7 +356,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+          "Host": "a17cabb5-3f13-4056-b0ce-476143491d4b.blackbeautifulman.cloudns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -372,7 +372,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
+        "server_name": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -382,7 +382,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
+          "Host": "30388d70-6f5c-4d7c-8daa-9d3df7c5c526.9150e878-8296-4798-a172-c3fe66b8dee5.ddnsgeek.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -406,7 +406,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
@@ -423,7 +423,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 3",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
