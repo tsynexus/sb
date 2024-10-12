@@ -162,13 +162,13 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇺🇸 United States_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0"
       ]
     },
     {
@@ -179,13 +179,13 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇺🇸 United States_hysteria2_0",
+        "🇷🇺 Russia_hysteria2_0",
         "direct"
       ]
     },
@@ -249,16 +249,16 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
-        "🇺🇸 United States_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0"
       ]
     },
     {
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "None_vless_0 2"
+        "None_vless_0"
       ]
     },
     {
@@ -268,13 +268,13 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇺🇸 United States_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -290,7 +290,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
+        "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -300,7 +300,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
+          "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -316,7 +316,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com",
+        "server_name": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -326,7 +326,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com"
+          "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -350,7 +350,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
@@ -367,7 +367,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 3",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
@@ -386,8 +386,8 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "8.212.41.98",
-      "server_port": 8080,
+      "server": "8.210.173.151",
+      "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "transport": {
@@ -403,7 +403,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.212.12.98",
+      "server": "47.243.48.169",
       "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -420,8 +420,8 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 4",
       "type": "vless",
-      "server": "47.243.237.160",
-      "server_port": 8080,
+      "server": "8.218.148.106",
+      "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "transport": {
@@ -453,10 +453,10 @@
       "obfs": "dongtaiwang.com"
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_0",
+      "tag": "🇷🇺 Russia_hysteria2_0",
       "type": "hysteria2",
-      "server": "207.90.239.157",
-      "server_port": 11276,
+      "server": "185.22.152.93",
+      "server_port": 33713,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
