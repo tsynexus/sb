@@ -167,7 +167,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0",
+        "🇺🇸 United States_vless_0 3"
       ]
     },
     {
@@ -184,6 +185,7 @@
         "🇭🇰 Hong Kong_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
+        "🇺🇸 United States_vless_0 3",
         "direct"
       ]
     },
@@ -247,7 +249,8 @@
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0",
+        "🇺🇸 United States_vless_0 3"
       ]
     },
     {
@@ -270,7 +273,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0"
+        "🇷🇺 Russia_hysteria2_0",
+        "🇺🇸 United States_vless_0 3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -286,7 +290,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+        "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -296,7 +300,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+          "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -312,7 +316,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com",
+        "server_name": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -322,7 +326,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "8582b6f2-7192-4da8-a4cb-c480b71e6c58.e8e54e0f-6317-448a-9999-95f6e16f7117.ooguy.com"
+          "Host": "ceb98438-36f6-4f6c-9596-8d0409bbe285.b1e18cfc-f959-4f08-94da-4878c3cd4a5f.mywire.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -446,6 +450,28 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_0 3",
+      "type": "vless",
+      "server": "108.181.3.68",
+      "server_port": 52562,
+      "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
+        }
       }
     }
   ],
