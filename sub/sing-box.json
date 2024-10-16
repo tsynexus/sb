@@ -169,8 +169,7 @@
         "🇭🇰 Hong Kong_vless_0 4",
         "🇭🇰 Hong Kong_vless_0 5",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_vless_0 4"
+        "🇷🇺 Russia_hysteria2_0"
       ]
     },
     {
@@ -189,7 +188,6 @@
         "🇭🇰 Hong Kong_vless_0 5",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_vless_0 4",
         "direct"
       ]
     },
@@ -256,8 +254,7 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_vless_0 4"
+        "🇷🇺 Russia_hysteria2_0"
       ]
     },
     {
@@ -281,8 +278,7 @@
         "🇭🇰 Hong Kong_vless_0 4",
         "🇭🇰 Hong Kong_vless_0 5",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_vless_0 4"
+        "🇷🇺 Russia_hysteria2_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -298,7 +294,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com",
+        "server_name": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -308,7 +304,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "478a9f2a-0d66-4035-a797-06e9c83c6739.3869fe04-6fcd-4ad4-a8f4-40582f4fa0c4.giize.com"
+          "Host": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -324,7 +320,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com",
+        "server_name": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -334,7 +330,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "547c921f-c9b1-4d57-bb25-ff5c79749783.a09c5a67-316e-45c6-a051-e6066737fd47.theworkpc.com"
+          "Host": "3ca919ae-4e52-48cb-9f79-f920f0c234bd.b6071df2-af24-4fe5-a53c-5482f4bf5bce.kozow.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -394,8 +390,8 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "8.212.41.98",
-      "server_port": 8080,
+      "server": "8.210.173.151",
+      "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "transport": {
@@ -411,7 +407,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.210.173.151",
+      "server": "8.212.12.98",
       "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -428,8 +424,8 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 4",
       "type": "vless",
-      "server": "8.212.12.98",
-      "server_port": 80,
+      "server": "8.212.41.98",
+      "server_port": 8080,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "transport": {
@@ -492,28 +488,6 @@
         "alpn": [
           "h3"
         ]
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_vless_0 4",
-      "type": "vless",
-      "server": "108.181.3.68",
-      "server_port": 52562,
-      "uuid": "47b8b611-9e64-4d59-a1ef-b51b3ffc0cae",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "www.amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qvdphcXh7EkRcfJ7XXB5v0KH9e2RqZQhL2QNyLQdsm8"
-        }
       }
     }
   ],
