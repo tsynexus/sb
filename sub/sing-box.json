@@ -167,6 +167,7 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
+        "🇭🇰 Hong Kong_vless_0 5",
         "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0"
@@ -185,6 +186,7 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
+        "🇭🇰 Hong Kong_vless_0 5",
         "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
@@ -228,7 +230,8 @@
         "🇭🇰 Hong Kong_vless_0",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
-        "🇭🇰 Hong Kong_vless_0 4"
+        "🇭🇰 Hong Kong_vless_0 4",
+        "🇭🇰 Hong Kong_vless_0 5"
       ]
     },
     {
@@ -276,6 +279,7 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
+        "🇭🇰 Hong Kong_vless_0 5",
         "🇫🇷 France_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0"
@@ -294,7 +298,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -304,7 +308,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -320,7 +324,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com",
+        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -330,7 +334,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -390,8 +394,8 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "47.243.48.169",
-      "server_port": 80,
+      "server": "8.212.41.98",
+      "server_port": 8080,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "transport": {
@@ -407,7 +411,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.212.12.98",
+      "server": "47.243.48.169",
       "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -424,7 +428,24 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 4",
       "type": "vless",
-      "server": "118.26.39.145",
+      "server": "8.212.12.98",
+      "server_port": 80,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cf.skykk.workers.dev"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇭🇰 Hong Kong_vless_0 5",
+      "type": "vless",
+      "server": "8.218.148.106",
       "server_port": 80,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
