@@ -162,8 +162,8 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
@@ -179,8 +179,8 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
@@ -249,6 +249,7 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0"
       ]
@@ -257,8 +258,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "None_vless_0 2"
+        "None_vless_0"
       ]
     },
     {
@@ -268,8 +268,8 @@
         "🇺🇸 United States_vless_0",
         "🇭🇰 Hong Kong_vless_0",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
@@ -290,7 +290,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org",
+        "server_name": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -300,7 +300,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "fe9b5676-a2aa-4b6a-8257-cd2dd0910205.8c98ef2b-bee2-470b-b759-9f5efbc10812.freeddns.org"
+          "Host": "c543a30d-e872-49ad-8be6-2836890f3d20.b9caf607-1ef7-4fd2-be07-224869a92bdf.accesscam.org"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -316,7 +316,7 @@
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com",
+        "server_name": "fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -326,7 +326,7 @@
         "type": "ws",
         "path": "/cf.skykk.workers.dev/",
         "headers": {
-          "Host": "159d770e-fd74-4069-a73b-fe6ececa7951.f82aee4c-752c-4b0c-9793-380d4d76435c.ddnsgeek.com"
+          "Host": "fc071d49-af91-42d6-a20e-5a64e24a53bc.71a45835-dd0c-4d51-8bd4-9ccf9f223662.casacam.net"
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
@@ -350,7 +350,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
@@ -367,7 +367,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 3",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
