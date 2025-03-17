@@ -168,7 +168,6 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 5",
-        "🇭🇰 Hong Kong_vless_0 6",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
@@ -191,7 +190,6 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 5",
-        "🇭🇰 Hong Kong_vless_0 6",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
@@ -239,8 +237,7 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
-        "🇭🇰 Hong Kong_vless_0 5",
-        "🇭🇰 Hong Kong_vless_0 6"
+        "🇭🇰 Hong Kong_vless_0 5"
       ]
     },
     {
@@ -291,7 +288,6 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 5",
-        "🇭🇰 Hong Kong_vless_0 6",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
@@ -486,23 +482,6 @@
     },
     {
       "tag": "🇭🇰 Hong Kong_vless_0 5",
-      "type": "vless",
-      "server": "8.218.197.202",
-      "server_port": 80,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "cf.skykk.workers.dev"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇭🇰 Hong Kong_vless_0 6",
       "type": "vless",
       "server": "8.212.12.98",
       "server_port": 80,
