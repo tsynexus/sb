@@ -172,8 +172,7 @@
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_hysteria2_1",
-        "🇷🇺 Russia_hysteria2_2",
+        "🇷🇺 Russia_hysteria2_1",
         "🇹🇼 Taiwan_vless_0"
       ]
     },
@@ -195,8 +194,7 @@
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_hysteria2_1",
-        "🇷🇺 Russia_hysteria2_2",
+        "🇷🇺 Russia_hysteria2_1",
         "🇹🇼 Taiwan_vless_0",
         "direct"
       ]
@@ -266,8 +264,7 @@
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_hysteria2_1",
-        "🇷🇺 Russia_hysteria2_2"
+        "🇷🇺 Russia_hysteria2_1"
       ]
     },
     {
@@ -295,8 +292,7 @@
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
-        "🇺🇸 United States_hysteria2_1",
-        "🇷🇺 Russia_hysteria2_2",
+        "🇷🇺 Russia_hysteria2_1",
         "🇹🇼 Taiwan_vless_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -556,7 +552,7 @@
       "tag": "🇷🇺 Russia_hysteria2_0",
       "type": "hysteria2",
       "server": "46.17.41.217",
-      "server_port": 37481,
+      "server_port": 4395,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -570,27 +566,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_hysteria2_1",
-      "type": "hysteria2",
-      "server": "108.181.5.133",
-      "server_port": 15544,
-      "password": "dongtaiwang.com",
-      "up_mbps": 10,
-      "down_mbps": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "alpn": [
-          "h3"
-        ]
-      }
-    },
-    {
-      "tag": "🇷🇺 Russia_hysteria2_2",
+      "tag": "🇷🇺 Russia_hysteria2_1",
       "type": "hysteria2",
       "server": "46.29.163.171",
-      "server_port": 18626,
+      "server_port": 35751,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
