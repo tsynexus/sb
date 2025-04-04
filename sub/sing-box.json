@@ -350,7 +350,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 2",
       "type": "vless",
-      "server": "8.210.48.192",
+      "server": "8.218.71.200",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -376,7 +376,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 3",
       "type": "vless",
-      "server": "8.218.71.200",
+      "server": "47.57.233.126",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -402,7 +402,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0 4",
       "type": "vless",
-      "server": "47.240.42.138",
+      "server": "47.57.245.232",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
