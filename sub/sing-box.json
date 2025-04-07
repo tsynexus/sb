@@ -312,7 +312,7 @@
     {
       "tag": "🇭🇰 Hong Kong_vless_0",
       "type": "vless",
-      "server": "47.57.181.17",
+      "server": "8.218.73.41",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
