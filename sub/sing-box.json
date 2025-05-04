@@ -168,7 +168,7 @@
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria_1",
+        "🇺🇸 United States_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
         "🇹🇼 Taiwan_vless_0"
       ]
@@ -187,7 +187,7 @@
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria_1",
+        "🇺🇸 United States_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
         "🇹🇼 Taiwan_vless_0",
         "direct"
@@ -255,7 +255,7 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria_1",
+        "🇺🇸 United States_hysteria_1",
         "🇷🇺 Russia_hysteria2_0"
       ]
     },
@@ -279,7 +279,7 @@
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
-        "🇷🇺 Russia_hysteria_1",
+        "🇺🇸 United States_hysteria_1",
         "🇷🇺 Russia_hysteria2_0",
         "🇹🇼 Taiwan_vless_0"
       ],
@@ -477,10 +477,10 @@
       }
     },
     {
-      "tag": "🇷🇺 Russia_hysteria_1",
+      "tag": "🇺🇸 United States_hysteria_1",
       "type": "hysteria",
-      "server": "46.17.41.174",
-      "server_port": 10469,
+      "server": "208.87.243.187",
+      "server_port": 40528,
       "up_mbps": 11,
       "down_mbps": 55,
       "auth_str": "dongtaiwang.com",
