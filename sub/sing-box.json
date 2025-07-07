@@ -164,8 +164,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
@@ -183,8 +183,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
@@ -253,6 +253,7 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
         "🇷🇺 Russia_hysteria2_2"
@@ -262,8 +263,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "None_vless_0 2"
+        "None_vless_0"
       ]
     },
     {
@@ -275,8 +275,8 @@
         "🇭🇰 Hong Kong_vless_0 2",
         "🇭🇰 Hong Kong_vless_0 3",
         "None_vless_0",
-        "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0 4",
         "🇷🇺 Russia_hysteria_0",
         "🇷🇺 Russia_hysteria2_0",
@@ -409,7 +409,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
@@ -426,7 +426,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 3",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
