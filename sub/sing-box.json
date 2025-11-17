@@ -160,12 +160,12 @@
         "auto",
         "direct",
         "🇺🇸 United States_vless_0",
-        "🇯🇵 Japan_vless_0",
-        "🇺🇸 United States_vless_0 2",
-        "🇯🇵 Japan_vless_0 2",
-        "🇬🇧 United Kingdom_vless_0",
+        "🇸🇬 Singapore_vless_0",
+        "🇸🇬 Singapore_vless_0 2",
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_0 2",
         "None_vless_0",
-        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0",
         "Unknown_vless_0"
@@ -177,12 +177,12 @@
       "outbounds": [
         "Proxy",
         "🇺🇸 United States_vless_0",
-        "🇯🇵 Japan_vless_0",
-        "🇺🇸 United States_vless_0 2",
-        "🇯🇵 Japan_vless_0 2",
-        "🇬🇧 United Kingdom_vless_0",
+        "🇸🇬 Singapore_vless_0",
+        "🇸🇬 Singapore_vless_0 2",
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_0 2",
         "None_vless_0",
-        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0",
         "Unknown_vless_0",
@@ -230,15 +230,15 @@
       "tag": "Singapore",
       "type": "selector",
       "outbounds": [
-        "Proxy"
+        "🇸🇬 Singapore_vless_0",
+        "🇸🇬 Singapore_vless_0 2"
       ]
     },
     {
       "tag": "Japan",
       "type": "selector",
       "outbounds": [
-        "🇯🇵 Japan_vless_0",
-        "🇯🇵 Japan_vless_0 2"
+        "Proxy"
       ]
     },
     {
@@ -254,9 +254,9 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇬🇧 United Kingdom_vless_0",
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_0 2",
         "None_vless_0",
-        "None_vless_0 2",
         "Unknown_vless_0"
       ]
     },
@@ -265,12 +265,12 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 United States_vless_0",
-        "🇯🇵 Japan_vless_0",
-        "🇺🇸 United States_vless_0 2",
-        "🇯🇵 Japan_vless_0 2",
-        "🇬🇧 United Kingdom_vless_0",
+        "🇸🇬 Singapore_vless_0",
+        "🇸🇬 Singapore_vless_0 2",
+        "🇨🇦 Canada_vless_0",
+        "🇨🇦 Canada_vless_0 2",
         "None_vless_0",
-        "None_vless_0 2",
+        "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0",
         "Unknown_vless_0"
@@ -306,9 +306,9 @@
       }
     },
     {
-      "tag": "🇯🇵 Japan_vless_0",
+      "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "172.105.208.151",
+      "server": "20.247.137.183",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -332,10 +332,10 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 2",
+      "tag": "🇸🇬 Singapore_vless_0 2",
       "type": "vless",
-      "server": "152.42.236.151",
-      "server_port": 8443,
+      "server": "192.46.231.158",
+      "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -358,10 +358,10 @@
       }
     },
     {
-      "tag": "🇯🇵 Japan_vless_0 2",
+      "tag": "🇨🇦 Canada_vless_0",
       "type": "vless",
-      "server": "158.101.71.226",
-      "server_port": 8443,
+      "server": "198.1.218.159",
+      "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -384,9 +384,9 @@
       }
     },
     {
-      "tag": "🇬🇧 United Kingdom_vless_0",
+      "tag": "🇨🇦 Canada_vless_0 2",
       "type": "vless",
-      "server": "194.33.182.62",
+      "server": "198.1.218.92",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -427,7 +427,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
