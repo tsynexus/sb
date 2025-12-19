@@ -167,8 +167,7 @@
         "None_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
-        "🇭🇰 Hong Kong_vless_0",
-        "Unknown_vless_0"
+        "🇭🇰 Hong Kong_vless_0"
       ]
     },
     {
@@ -185,7 +184,6 @@
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
         "🇭🇰 Hong Kong_vless_0",
-        "Unknown_vless_0",
         "direct"
       ]
     },
@@ -256,8 +254,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "None_vless_0",
-        "Unknown_vless_0"
+        "None_vless_0"
       ]
     },
     {
@@ -272,8 +269,7 @@
         "None_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇺🇸 United States_vless_0 3",
-        "🇭🇰 Hong Kong_vless_0",
-        "Unknown_vless_0"
+        "🇭🇰 Hong Kong_vless_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -308,7 +304,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "178.128.86.3",
+      "server": "172.104.161.205",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -334,8 +330,8 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 2",
       "type": "vless",
-      "server": "157.230.244.86",
-      "server_port": 443,
+      "server": "178.128.59.95",
+      "server_port": 2053,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -360,7 +356,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 3",
       "type": "vless",
-      "server": "178.128.87.6",
+      "server": "213.35.107.73",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -386,7 +382,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 4",
       "type": "vless",
-      "server": "172.104.161.205",
+      "server": "168.138.165.174",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -475,28 +471,6 @@
         },
         "early_data_header_name": "Sec-WebSocket-Protocol",
         "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "Unknown_vless_0",
-      "type": "vless",
-      "server": "2001:bc8:32d7:302::13",
-      "server_port": 34324,
-      "uuid": "26c462ba-a90c-4814-9d7c-a629bc0bdb5c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "dash.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pHn5CHa2P6-lNBIkTOI3zJQN19jfNFkXxGFuyefpP0M"
-        }
       }
     }
   ],
