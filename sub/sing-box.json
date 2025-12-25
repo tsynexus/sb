@@ -163,7 +163,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇲🇾 Malaysia_vless_0",
+        "🇸🇬 Singapore_vless_0 4",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0",
@@ -179,7 +179,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇲🇾 Malaysia_vless_0",
+        "🇸🇬 Singapore_vless_0 4",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0",
@@ -230,7 +230,8 @@
       "outbounds": [
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3"
+        "🇸🇬 Singapore_vless_0 3",
+        "🇸🇬 Singapore_vless_0 4"
       ]
     },
     {
@@ -252,7 +253,6 @@
       "type": "selector",
       "outbounds": [
         "None_vless_0",
-        "🇲🇾 Malaysia_vless_0",
         "None_vless_0 2",
         "None_vless_0 3"
       ]
@@ -265,7 +265,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇲🇾 Malaysia_vless_0",
+        "🇸🇬 Singapore_vless_0 4",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0",
@@ -304,7 +304,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "178.128.80.43",
+      "server": "206.189.82.255",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -330,7 +330,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 2",
       "type": "vless",
-      "server": "20.247.137.183",
+      "server": "178.128.86.3",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -356,7 +356,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 3",
       "type": "vless",
-      "server": "206.189.82.255",
+      "server": "20.247.137.183",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -380,9 +380,9 @@
       }
     },
     {
-      "tag": "🇲🇾 Malaysia_vless_0",
+      "tag": "🇸🇬 Singapore_vless_0 4",
       "type": "vless",
-      "server": "47.250.139.59",
+      "server": "178.128.80.43",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
