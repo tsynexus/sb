@@ -163,7 +163,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇸🇬 Singapore_vless_0 4",
+        "🇮🇩 Indonesia_vless_0",
         "None_vless_0",
         "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
@@ -179,7 +179,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇸🇬 Singapore_vless_0 4",
+        "🇮🇩 Indonesia_vless_0",
         "None_vless_0",
         "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
@@ -230,8 +230,7 @@
       "outbounds": [
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3",
-        "🇸🇬 Singapore_vless_0 4"
+        "🇸🇬 Singapore_vless_0 3"
       ]
     },
     {
@@ -253,6 +252,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇮🇩 Indonesia_vless_0",
         "None_vless_0",
         "None_vless_0 2"
       ]
@@ -265,7 +265,7 @@
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "🇸🇬 Singapore_vless_0 4",
+        "🇮🇩 Indonesia_vless_0",
         "None_vless_0",
         "None_vless_0 2",
         "🇺🇸 United States_vless_0 2",
@@ -304,7 +304,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "104.248.145.216",
+      "server": "206.189.82.255",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -356,7 +356,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 3",
       "type": "vless",
-      "server": "139.59.239.116",
+      "server": "20.247.137.183",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -380,9 +380,9 @@
       }
     },
     {
-      "tag": "🇸🇬 Singapore_vless_0 4",
+      "tag": "🇮🇩 Indonesia_vless_0",
       "type": "vless",
-      "server": "134.209.110.149",
+      "server": "172.232.238.52",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
