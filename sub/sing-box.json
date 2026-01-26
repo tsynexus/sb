@@ -161,9 +161,9 @@
         "direct",
         "None_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
@@ -177,9 +177,9 @@
         "Proxy",
         "None_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
@@ -263,9 +263,9 @@
       "outbounds": [
         "None_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0",
         "None_vless_0 2",
         "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
@@ -304,34 +304,8 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "68.183.225.227",
+      "server": "68.183.235.53",
       "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "undefined",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "undefined"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇺🇸 United States_vless_0",
-      "type": "vless",
-      "server": "47.82.155.79",
-      "server_port": 8443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -356,7 +330,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 2",
       "type": "vless",
-      "server": "139.162.61.143",
+      "server": "159.223.93.80",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -382,7 +356,33 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 3",
       "type": "vless",
-      "server": "134.209.110.149",
+      "server": "165.232.164.60",
+      "server_port": 443,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "undefined",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "undefined"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇺🇸 United States_vless_0",
+      "type": "vless",
+      "server": "152.42.195.241",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
