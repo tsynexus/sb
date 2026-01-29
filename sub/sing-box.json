@@ -161,12 +161,12 @@
         "direct",
         "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 4",
         "🇭🇰 Hong Kong_vless_0"
       ]
     },
@@ -177,12 +177,12 @@
         "Proxy",
         "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 4",
         "🇭🇰 Hong Kong_vless_0",
         "direct"
       ]
@@ -229,8 +229,7 @@
       "type": "selector",
       "outbounds": [
         "🇸🇬 Singapore_vless_0",
-        "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3"
+        "🇸🇬 Singapore_vless_0 2"
       ]
     },
     {
@@ -246,7 +245,8 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
-        "🇺🇸 United States_vless_0 3"
+        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 4"
       ]
     },
     {
@@ -263,12 +263,12 @@
       "outbounds": [
         "🇺🇸 United States_vless_0",
         "🇸🇬 Singapore_vless_0",
-        "🇺🇸 United States_vless_0 2",
         "🇸🇬 Singapore_vless_0 2",
-        "🇸🇬 Singapore_vless_0 3",
+        "🇺🇸 United States_vless_0 2",
+        "🇺🇸 United States_vless_0 3",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0 3",
+        "🇺🇸 United States_vless_0 4",
         "🇭🇰 Hong Kong_vless_0"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -304,7 +304,33 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "128.199.128.117",
+      "server": "159.223.57.22",
+      "server_port": 443,
+      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "undefined",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cf.skykk.workers.dev/",
+        "headers": {
+          "Host": "undefined"
+        },
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "max_early_data": 2560
+      }
+    },
+    {
+      "tag": "🇸🇬 Singapore_vless_0 2",
+      "type": "vless",
+      "server": "128.199.82.20",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -354,36 +380,10 @@
       }
     },
     {
-      "tag": "🇸🇬 Singapore_vless_0 2",
+      "tag": "🇺🇸 United States_vless_0 3",
       "type": "vless",
-      "server": "129.150.48.17",
-      "server_port": 443,
-      "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "undefined",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/cf.skykk.workers.dev/",
-        "headers": {
-          "Host": "undefined"
-        },
-        "early_data_header_name": "Sec-WebSocket-Protocol",
-        "max_early_data": 2560
-      }
-    },
-    {
-      "tag": "🇸🇬 Singapore_vless_0 3",
-      "type": "vless",
-      "server": "139.59.237.52",
-      "server_port": 443,
+      "server": "152.42.236.151",
+      "server_port": 8443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -440,7 +440,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0 3",
+      "tag": "🇺🇸 United States_vless_0 4",
       "type": "vless",
       "server": "www.who.int",
       "server_port": 8880,
