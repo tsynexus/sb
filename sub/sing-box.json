@@ -159,13 +159,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "None_vless_0",
         "🇺🇸 United States_vless_0",
-        "🇸🇪 Sweden_vless_0",
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "None_vless_0",
         "None_vless_0 2",
+        "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0"
       ]
@@ -175,13 +175,13 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
+        "None_vless_0",
         "🇺🇸 United States_vless_0",
-        "🇸🇪 Sweden_vless_0",
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "None_vless_0",
         "None_vless_0 2",
+        "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0",
         "direct"
@@ -252,22 +252,22 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇸🇪 Sweden_vless_0",
         "None_vless_0",
-        "None_vless_0 2"
+        "None_vless_0 2",
+        "None_vless_0 3"
       ]
     },
     {
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "None_vless_0",
         "🇺🇸 United States_vless_0",
-        "🇸🇪 Sweden_vless_0",
         "🇸🇬 Singapore_vless_0",
         "🇸🇬 Singapore_vless_0 2",
         "🇸🇬 Singapore_vless_0 3",
-        "None_vless_0",
         "None_vless_0 2",
+        "None_vless_0 3",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0"
       ],
@@ -276,7 +276,7 @@
       "tolerance": 50
     },
     {
-      "tag": "🇺🇸 United States_vless_0",
+      "tag": "None_vless_0",
       "type": "vless",
       "server": "cf.090227.xyz",
       "server_port": 443,
@@ -302,10 +302,10 @@
       }
     },
     {
-      "tag": "🇸🇪 Sweden_vless_0",
+      "tag": "🇺🇸 United States_vless_0",
       "type": "vless",
-      "server": "217.142.185.111",
-      "server_port": 443,
+      "server": "140.245.126.198",
+      "server_port": 8443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -330,7 +330,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0",
       "type": "vless",
-      "server": "213.35.127.18",
+      "server": "157.245.151.130",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -356,8 +356,8 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 2",
       "type": "vless",
-      "server": "188.239.9.91",
-      "server_port": 443,
+      "server": "129.150.33.222",
+      "server_port": 8443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
       "tls": {
@@ -382,7 +382,7 @@
     {
       "tag": "🇸🇬 Singapore_vless_0 3",
       "type": "vless",
-      "server": "68.183.230.164",
+      "server": "213.35.127.18",
       "server_port": 443,
       "uuid": "3eab194a-c8bb-419d-b8c8-a19ab4571c5e",
       "packet_encoding": "xudp",
@@ -406,7 +406,7 @@
       }
     },
     {
-      "tag": "None_vless_0",
+      "tag": "None_vless_0 2",
       "type": "vless",
       "server": "www.visa.com.sg",
       "server_port": 80,
@@ -423,7 +423,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "None_vless_0 3",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
