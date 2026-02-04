@@ -159,9 +159,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 United States_vless_0",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0"
       ]
@@ -171,9 +171,9 @@
       "type": "selector",
       "outbounds": [
         "Proxy",
+        "🇺🇸 United States_vless_0",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0",
         "direct"
@@ -250,9 +250,9 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
+        "🇺🇸 United States_vless_0",
         "None_vless_0",
         "None_vless_0 2",
-        "🇺🇸 United States_vless_0",
         "🇺🇸 United States_vless_0 2",
         "🇭🇰 Hong Kong_vless_0"
       ],
@@ -261,7 +261,7 @@
       "tolerance": 50
     },
     {
-      "tag": "None_vless_0",
+      "tag": "🇺🇸 United States_vless_0",
       "type": "vless",
       "server": "cf.090227.xyz",
       "server_port": 443,
@@ -287,7 +287,7 @@
       }
     },
     {
-      "tag": "None_vless_0 2",
+      "tag": "None_vless_0",
       "type": "vless",
       "server": "www.visa.com.sg",
       "server_port": 80,
@@ -304,7 +304,7 @@
       }
     },
     {
-      "tag": "🇺🇸 United States_vless_0",
+      "tag": "None_vless_0 2",
       "type": "vless",
       "server": "www.wto.org",
       "server_port": 8080,
